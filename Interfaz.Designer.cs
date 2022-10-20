@@ -1,4 +1,6 @@
-﻿namespace CaballoAjedrez
+﻿using System;
+
+namespace CaballoAjedrez
 {
     partial class Interfaz
     {
@@ -109,7 +111,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "♞";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -123,24 +125,37 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "♞";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(83, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 26);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.label3.BackColor = System.Drawing.Color.FromArgb(238, 238, 210);
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(3, 0);
+            this.label3.Name = "label1";
+            this.label3.Size = new System.Drawing.Size(34, 40);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "♞";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(123, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 26);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.label4.BackColor = System.Drawing.Color.FromArgb(186, 202, 68);
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(3, 0);
+            this.label4.Name = "label1";
+            this.label4.Size = new System.Drawing.Size(34, 40);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "♞";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Interfaz
             // 
@@ -170,6 +185,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+      
     }
 }
 
