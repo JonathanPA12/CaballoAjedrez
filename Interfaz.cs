@@ -80,19 +80,75 @@ namespace CaballoAjedrez
             }
         }
 
-
+        // boton para reiniciar el juego
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Label label;
+            for (int i = 63; i >= 0; i--)
+            {
+                label = tableLayoutPanel1.Controls[i] as Label;
+                label.Font = new Font("Segoe UI", 20, FontStyle.Bold);
+                label.Text = " ";
+            }
+            for (int i = 0; i < fila; i++)
+            {
+                for (int j = 0; j < columna; j++)
+                {
+                    juegoPasos[i, j] = 0;
+                    paso = 1;
+                }
+            }
         }
+        //boton para ver la solucion
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Label label;
+            int indice = 63;
+            for (int i = 0; i < fila; i++)
+            {
+                for (int j = 0; j < columna; j++)
+                {
+                    label = tableLayoutPanel1.Controls[indice] as Label;
+                    label.Text = Convert.ToString(juegoSolucion[i, j]);
+                    label.ForeColor = Color.Black;
+                    label.Font = new Font("Segoe UI", 20); // tamaño de la letra
+                    indice--;
+                }
+            }
         }
+        //boton de movimiento 
         private void button1_Click(object sender, EventArgs e)
         {
+            Label label; //variable de tipo label para poder crear los labels
+            int indice = 63; //tamaño del tablero -1
+
+            pasos();
+
+            for (int i = 0; i < fila; i++)
+            {
+                for (int j = 0; j < columna; j++)
+                {
+                    if (juegoPasos[i, j] != 0) // lee el contenido de la matriz de pasos
+                    {
+                        label = tableLayoutPanel1.Controls[indice] as Label; //crea un label en la posicion del indice
+                        label.Font = new Font("Segoe UI", 20, FontStyle.Bold);
+                        label.Text = "♞";
+                        label.ForeColor = Color.Black; // pasa el caballito a negro 
+                    }
+                    indice--; // se va disminuyendo comforme se va llenando el tablero
+                }
+            }
 
         }
+        //boton para salir del juego
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //cerrar y salir de juego
+          
+            Application.Exit(); 
+
+        }
+
        
     }
 }
