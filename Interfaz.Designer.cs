@@ -74,7 +74,6 @@ namespace CaballoAjedrez
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
@@ -83,6 +82,15 @@ namespace CaballoAjedrez
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -174,6 +182,14 @@ namespace CaballoAjedrez
             this.tableLayoutPanel1.Controls.Add(this.label46, 5, 5);
             this.tableLayoutPanel1.Controls.Add(this.label47, 6, 5);
             this.tableLayoutPanel1.Controls.Add(this.label48, 7, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label49, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label50, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label51, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label52, 3, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label53, 4, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label54, 5, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label55, 6, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label56, 7, 6);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
@@ -748,16 +764,6 @@ namespace CaballoAjedrez
             this.label40.Text = "♞";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(570, 153);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Salir";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // label41
             // 
             this.label41.AutoSize = true;
@@ -765,9 +771,9 @@ namespace CaballoAjedrez
             this.label41.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label41.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label41.Location = new System.Drawing.Point(283, 160);
+            this.label41.Location = new System.Drawing.Point(3, 200);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(44, 40);
+            this.label41.Size = new System.Drawing.Size(34, 40);
             this.label41.TabIndex = 0;
             this.label41.Text = "♞";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -779,7 +785,7 @@ namespace CaballoAjedrez
             this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label42.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label42.Location = new System.Drawing.Point(243, 160);
+            this.label42.Location = new System.Drawing.Point(43, 200);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(34, 40);
             this.label42.TabIndex = 0;
@@ -793,9 +799,9 @@ namespace CaballoAjedrez
             this.label43.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label43.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label43.Location = new System.Drawing.Point(283, 160);
+            this.label43.Location = new System.Drawing.Point(83, 200);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(44, 40);
+            this.label43.Size = new System.Drawing.Size(34, 40);
             this.label43.TabIndex = 0;
             this.label43.Text = "♞";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -807,7 +813,7 @@ namespace CaballoAjedrez
             this.label44.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label44.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label44.Location = new System.Drawing.Point(243, 160);
+            this.label44.Location = new System.Drawing.Point(123, 200);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(34, 40);
             this.label44.TabIndex = 0;
@@ -821,9 +827,9 @@ namespace CaballoAjedrez
             this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label45.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label45.Location = new System.Drawing.Point(283, 160);
+            this.label45.Location = new System.Drawing.Point(163, 200);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(44, 40);
+            this.label45.Size = new System.Drawing.Size(34, 40);
             this.label45.TabIndex = 0;
             this.label45.Text = "♞";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -835,7 +841,7 @@ namespace CaballoAjedrez
             this.label46.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label46.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label46.Location = new System.Drawing.Point(243, 160);
+            this.label46.Location = new System.Drawing.Point(203, 200);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(34, 40);
             this.label46.TabIndex = 0;
@@ -849,9 +855,9 @@ namespace CaballoAjedrez
             this.label47.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label47.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label47.Location = new System.Drawing.Point(283, 160);
+            this.label47.Location = new System.Drawing.Point(243, 200);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(44, 40);
+            this.label47.Size = new System.Drawing.Size(34, 40);
             this.label47.TabIndex = 0;
             this.label47.Text = "♞";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -863,12 +869,94 @@ namespace CaballoAjedrez
             this.label48.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label48.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label48.Location = new System.Drawing.Point(243, 160);
+            this.label48.Location = new System.Drawing.Point(283, 200);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(34, 40);
+            this.label48.Size = new System.Drawing.Size(44, 40);
             this.label48.TabIndex = 0;
             this.label48.Text = "♞";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(570, 153);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Salir";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(3, 240);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(29, 26);
+            this.label49.TabIndex = 2;
+            this.label49.Text = "label49";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(43, 240);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(29, 26);
+            this.label50.TabIndex = 3;
+            this.label50.Text = "label50";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(83, 240);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(29, 26);
+            this.label51.TabIndex = 4;
+            this.label51.Text = "label51";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(123, 240);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(29, 26);
+            this.label52.TabIndex = 5;
+            this.label52.Text = "label52";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(163, 240);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(29, 26);
+            this.label53.TabIndex = 6;
+            this.label53.Text = "label53";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(203, 240);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(29, 26);
+            this.label54.TabIndex = 7;
+            this.label54.Text = "label54";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(243, 240);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(29, 26);
+            this.label55.TabIndex = 8;
+            this.label55.Text = "label55";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(283, 240);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(41, 13);
+            this.label56.TabIndex = 9;
+            this.label56.Text = "label56";
             // 
             // Interfaz
             // 
@@ -944,6 +1032,14 @@ namespace CaballoAjedrez
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
     }
 }
 
