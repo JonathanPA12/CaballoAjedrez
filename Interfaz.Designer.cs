@@ -30,6 +30,7 @@ namespace CaballoAjedrez
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Interfaz));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -90,7 +91,6 @@ namespace CaballoAjedrez
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
@@ -99,6 +99,7 @@ namespace CaballoAjedrez
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -1004,16 +1005,6 @@ namespace CaballoAjedrez
             this.label56.Text = "♞";
             this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(570, 153);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Salir";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // label57
             // 
             this.label57.AutoSize = true;
@@ -1021,12 +1012,13 @@ namespace CaballoAjedrez
             this.label57.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label57.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label57.Location = new System.Drawing.Point(283, 240);
+            this.label57.Location = new System.Drawing.Point(3, 280);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(44, 40);
+            this.label57.Size = new System.Drawing.Size(34, 48);
             this.label57.TabIndex = 0;
             this.label57.Text = "♞";
             this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label58
             // 
             this.label58.AutoSize = true;
@@ -1034,9 +1026,9 @@ namespace CaballoAjedrez
             this.label58.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label58.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label58.Location = new System.Drawing.Point(243, 240);
+            this.label58.Location = new System.Drawing.Point(43, 280);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(34, 40);
+            this.label58.Size = new System.Drawing.Size(34, 48);
             this.label58.TabIndex = 0;
             this.label58.Text = "♞";
             this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1048,9 +1040,9 @@ namespace CaballoAjedrez
             this.label59.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label59.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label59.Location = new System.Drawing.Point(283, 240);
+            this.label59.Location = new System.Drawing.Point(83, 280);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(44, 40);
+            this.label59.Size = new System.Drawing.Size(34, 48);
             this.label59.TabIndex = 0;
             this.label59.Text = "♞";
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1062,9 +1054,9 @@ namespace CaballoAjedrez
             this.label60.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label60.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label60.Location = new System.Drawing.Point(243, 240);
+            this.label60.Location = new System.Drawing.Point(123, 280);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(34, 40);
+            this.label60.Size = new System.Drawing.Size(34, 48);
             this.label60.TabIndex = 0;
             this.label60.Text = "♞";
             this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1076,12 +1068,12 @@ namespace CaballoAjedrez
             this.label61.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label61.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label61.Location = new System.Drawing.Point(283, 240);
+            this.label61.Location = new System.Drawing.Point(163, 280);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(44, 40);
+            this.label61.Size = new System.Drawing.Size(34, 48);
             this.label61.TabIndex = 0;
             this.label61.Text = "♞";
-            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter; 
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label62
             // 
@@ -1090,9 +1082,9 @@ namespace CaballoAjedrez
             this.label62.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label62.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label62.Location = new System.Drawing.Point(243, 240);
+            this.label62.Location = new System.Drawing.Point(203, 280);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(34, 40);
+            this.label62.Size = new System.Drawing.Size(34, 48);
             this.label62.TabIndex = 0;
             this.label62.Text = "♞";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1104,9 +1096,9 @@ namespace CaballoAjedrez
             this.label63.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label63.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
-            this.label63.Location = new System.Drawing.Point(283, 240);
+            this.label63.Location = new System.Drawing.Point(243, 280);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(44, 40);
+            this.label63.Size = new System.Drawing.Size(34, 48);
             this.label63.TabIndex = 0;
             this.label63.Text = "♞";
             this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1118,23 +1110,36 @@ namespace CaballoAjedrez
             this.label64.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label64.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
-            this.label64.Location = new System.Drawing.Point(243, 240);
+            this.label64.Location = new System.Drawing.Point(283, 280);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(34, 40);
+            this.label64.Size = new System.Drawing.Size(44, 48);
             this.label64.TabIndex = 0;
             this.label64.Text = "♞";
             this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(570, 153);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Salir";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Interfaz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.BackgroundImage = global::CaballoAjedrez.Properties.Resources.greem;
             this.ClientSize = new System.Drawing.Size(691, 387);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Interfaz";
             this.Text = "Caballo de Ajedrez";
             this.Load += new System.EventHandler(this.Form1_Load);

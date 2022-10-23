@@ -29,7 +29,8 @@ namespace CaballoAjedrez
             this.MinimizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Text = "Caballo de Ajedrez";
-        
+            //referencia del diseño en https://www.chess.com/game/live/60275471315
+
         }
 
 
