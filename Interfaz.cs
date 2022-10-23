@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace CaballoAjedrez
 {
@@ -30,21 +31,27 @@ namespace CaballoAjedrez
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Text = "Caballo de Ajedrez";
             //referencia del diseño en https://www.chess.com/game/live/60275471315
+            Cargar_Archivo();
+            Crear_Solucion();
+
+
 
         }
 
 
         private void Form1_Load(object sender, EventArgs e){}
-        private void Cargar_Archivo()
+        private void pasos()
         {
-            System.IO.StreamReader file = new System.IO.StreamReader(@""); //la ruta del archivo
-            String x = file.ReadToEnd();
-            String[] vector = x.Split(new char[] { ' ', ',','-' }); // separa el string en un vector de strings por cada espacio o coma que encuentre en el string x
-            int cont = 0;
-            foreach (String str in vector)
+            for (int i = 0; i < fila; i++)
             {
-                linea[cont] = Convert.ToInt32(str);
-                cont++;
+                for (int j = 0; j < columna; j++)
+                {
+                    if (juegoSolucion[i, j] == paso)
+                    {
+                        juegoPasos[i, j] = juegoSolucion[i, j];
+                        paso++;
+                    }
+                }
             }
         }
         private void Crear_Solucion()
@@ -66,20 +73,20 @@ namespace CaballoAjedrez
                 }
             }
         }
-        private void pasos()
+        private void Cargar_Archivo()
         {
-            for (int i = 0; i < fila; i++)
+            System.IO.StreamReader file = new System.IO.StreamReader(@"..//..//..//BackendCaminoCaballo.txt"); //la ruta del archivo
+            String x = file.ReadToEnd();
+            String[] vector = x.Split(new char[] { ' ', ',','-' }); // separa el string en un vector de strings por cada espacio o coma que encuentre en el string x
+            int cont = 0;
+            foreach (String str in vector)
             {
-                for (int j = 0; j < columna; j++)
-                {
-                    if (juegoSolucion[i, j] == paso)
-                    {
-                        juegoPasos[i, j] = paso;
-                        paso++;
-                    }
-                }
+                linea[cont] = Convert.ToInt32(str);
+                cont++;
             }
         }
+     
+ 
 
         // boton para reiniciar el juego
         private void button3_Click(object sender, EventArgs e)
@@ -104,16 +111,16 @@ namespace CaballoAjedrez
         private void button2_Click(object sender, EventArgs e)
         {
             Label label;
-            int indice = 63;
+            int campos = 63;
             for (int i = 0; i < fila; i++)
             {
                 for (int j = 0; j < columna; j++)
                 {
-                    label = tableLayoutPanel1.Controls[indice] as Label;
+                    label = tableLayoutPanel1.Controls[campos] as Label;
                     label.Text = Convert.ToString(juegoSolucion[i, j]);
                     label.ForeColor = Color.Black;
                     label.Font = new Font("Segoe UI", 20); // tamaño de la letra
-                    indice--;
+                    campos--;
                 }
             }
         }
@@ -150,6 +157,17 @@ namespace CaballoAjedrez
 
         }
 
-       
+        private void button5_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog abrir = new OpenFileDialog(); //encontrar el archivo del backend
+
+            if (abrir.ShowDialog() == DialogResult.OK)
+            {
+                string direccion = abrir.FileName;
+
+                Process proceso = new Process();
+                proceso.StartInfo.FileName = direccion;
+            }
+        }
     }
 }
