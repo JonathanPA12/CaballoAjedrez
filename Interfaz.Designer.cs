@@ -1132,7 +1132,7 @@ namespace CaballoAjedrez
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.BackgroundImage = global::CaballoAjedrez.Properties.Resources.greem;
+            this.BackgroundImage = global::CaballoAjedrez.Properties.Resources.My_project_1;
             this.ClientSize = new System.Drawing.Size(691, 387);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.tableLayoutPanel1);
