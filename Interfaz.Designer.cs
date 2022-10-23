@@ -82,7 +82,6 @@ namespace CaballoAjedrez
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
@@ -91,6 +90,15 @@ namespace CaballoAjedrez
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -190,6 +198,14 @@ namespace CaballoAjedrez
             this.tableLayoutPanel1.Controls.Add(this.label54, 5, 6);
             this.tableLayoutPanel1.Controls.Add(this.label55, 6, 6);
             this.tableLayoutPanel1.Controls.Add(this.label56, 7, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label57, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label58, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label59, 2, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label60, 3, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label61, 4, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label62, 5, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label63, 6, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label64, 7, 7);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
@@ -876,6 +892,118 @@ namespace CaballoAjedrez
             this.label48.Text = "♞";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label49.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label49.Location = new System.Drawing.Point(3, 240);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(34, 40);
+            this.label49.TabIndex = 0;
+            this.label49.Text = "♞";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label50.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label50.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label50.Location = new System.Drawing.Point(43, 240);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(34, 40);
+            this.label50.TabIndex = 0;
+            this.label50.Text = "♞";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label51.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label51.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label51.Location = new System.Drawing.Point(83, 240);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(34, 40);
+            this.label51.TabIndex = 0;
+            this.label51.Text = "♞";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label52.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label52.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label52.Location = new System.Drawing.Point(123, 240);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(34, 40);
+            this.label52.TabIndex = 0;
+            this.label52.Text = "♞";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label53.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label53.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label53.Location = new System.Drawing.Point(163, 240);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(34, 40);
+            this.label53.TabIndex = 0;
+            this.label53.Text = "♞";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label54.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label54.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label54.Location = new System.Drawing.Point(203, 240);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(34, 40);
+            this.label54.TabIndex = 0;
+            this.label54.Text = "♞";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label55.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label55.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label55.Location = new System.Drawing.Point(243, 240);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(34, 40);
+            this.label55.TabIndex = 0;
+            this.label55.Text = "♞";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label56.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label56.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label56.Location = new System.Drawing.Point(283, 240);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(44, 40);
+            this.label56.TabIndex = 0;
+            this.label56.Text = "♞";
+            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(570, 153);
@@ -886,77 +1014,116 @@ namespace CaballoAjedrez
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // label49
+            // label57
             // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(3, 240);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(29, 26);
-            this.label49.TabIndex = 2;
-            this.label49.Text = "label49";
+            this.label57.AutoSize = true;
+            this.label57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label57.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label57.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label57.Location = new System.Drawing.Point(283, 240);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(44, 40);
+            this.label57.TabIndex = 0;
+            this.label57.Text = "♞";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // label58
             // 
-            // label50
+            this.label58.AutoSize = true;
+            this.label58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label58.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label58.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label58.Location = new System.Drawing.Point(243, 240);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(34, 40);
+            this.label58.TabIndex = 0;
+            this.label58.Text = "♞";
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(43, 240);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(29, 26);
-            this.label50.TabIndex = 3;
-            this.label50.Text = "label50";
+            // label59
             // 
-            // label51
+            this.label59.AutoSize = true;
+            this.label59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label59.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label59.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label59.Location = new System.Drawing.Point(283, 240);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(44, 40);
+            this.label59.TabIndex = 0;
+            this.label59.Text = "♞";
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(83, 240);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(29, 26);
-            this.label51.TabIndex = 4;
-            this.label51.Text = "label51";
+            // label60
             // 
-            // label52
+            this.label60.AutoSize = true;
+            this.label60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label60.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label60.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label60.Location = new System.Drawing.Point(243, 240);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(34, 40);
+            this.label60.TabIndex = 0;
+            this.label60.Text = "♞";
+            this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(123, 240);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(29, 26);
-            this.label52.TabIndex = 5;
-            this.label52.Text = "label52";
+            // label61
             // 
-            // label53
+            this.label61.AutoSize = true;
+            this.label61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label61.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label61.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label61.Location = new System.Drawing.Point(283, 240);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(44, 40);
+            this.label61.TabIndex = 0;
+            this.label61.Text = "♞";
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter; 
             // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(163, 240);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(29, 26);
-            this.label53.TabIndex = 6;
-            this.label53.Text = "label53";
+            // label62
             // 
-            // label54
+            this.label62.AutoSize = true;
+            this.label62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label62.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label62.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label62.Location = new System.Drawing.Point(243, 240);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(34, 40);
+            this.label62.TabIndex = 0;
+            this.label62.Text = "♞";
+            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(203, 240);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(29, 26);
-            this.label54.TabIndex = 7;
-            this.label54.Text = "label54";
+            // label63
             // 
-            // label55
+            this.label63.AutoSize = true;
+            this.label63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label63.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label63.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(68)))));
+            this.label63.Location = new System.Drawing.Point(283, 240);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(44, 40);
+            this.label63.TabIndex = 0;
+            this.label63.Text = "♞";
+            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(243, 240);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(29, 26);
-            this.label55.TabIndex = 8;
-            this.label55.Text = "label55";
+            // label64
             // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(283, 240);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(41, 13);
-            this.label56.TabIndex = 9;
-            this.label56.Text = "label56";
+            this.label64.AutoSize = true;
+            this.label64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label64.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label64.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(210)))));
+            this.label64.Location = new System.Drawing.Point(243, 240);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(34, 40);
+            this.label64.TabIndex = 0;
+            this.label64.Text = "♞";
+            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Interfaz
             // 
@@ -1040,6 +1207,14 @@ namespace CaballoAjedrez
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label64;
     }
 }
 
